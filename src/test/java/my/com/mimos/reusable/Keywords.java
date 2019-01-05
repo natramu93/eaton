@@ -15,18 +15,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
-
 import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+
 public class Keywords {
     static WebDriver driver;
     static WebDriverWait wait;
     public static void initialize(){
-        {
+    //Git test    
+    	{
             System.setProperty("atu.reporter.config", "atu.properties");
         }
         Properties p = new Properties();
